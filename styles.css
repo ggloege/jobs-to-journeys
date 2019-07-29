@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
+body {font-family: Source Serif Pro}
+body p {font-size: 1.1em}
+.toc-sidebar {padding-top: 100px}
+.content {padding: 100px 50px}
+.toc-btn {margin-bottom: 50px}
+footer {margin-top: 80px; border-top: 1px solid black; padding: 10px}
+h2 {margin-top: 30px}
+.sticky {position: sticky; top: 2em}
+.toc-section {
+  padding: .1em;
+  font-weight: 200;
+  color: black;
+  text-decoration: underline;
+}
+.toc-next {
+  text-decoration: underline;
+  margin-top: 20px;
+  color: black
+}
+.btn-next {
+  margin-top: 30px
+}
