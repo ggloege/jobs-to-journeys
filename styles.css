@@ -52,3 +52,12 @@ html {
     font-size: 1.6rem;
   }
 }
+
+.indented-list {
+  list-style: none;
+  padding-left: 30px
+}
+
+.indented-list li {
+  margin: 20px 0px
+}
