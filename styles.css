@@ -27,6 +27,10 @@ h2 {margin-top: 30px}
   list-style: none;
 }
 
+.footnote {
+  font-size: .7em
+}
+
 html {
   font-size: 1rem;
 }
