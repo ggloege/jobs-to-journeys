@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700&display=swap');
 body {font-family: 'Source Serif Pro', serif;}
+a {color: black}
 /* body p {font-size: 1.1em} */
 .toc-sidebar {padding-top: 100px}
 .content {padding: 100px 50px}
@@ -21,6 +22,11 @@ h2 {margin-top: 30px}
 .btn-next {
   margin-top: 30px
 }
+
+.toc-main-section {
+  list-style: none;
+}
+
 html {
   font-size: 1rem;
 }
