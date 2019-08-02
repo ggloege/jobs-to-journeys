@@ -1,24 +1,41 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700&display=swap');
-body {font-family: 'Source Serif Pro', serif;}
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700&display=swap');
+
+
+html {
+  font-size: 16px
+}
+
+body {font-family: 'Lora', serif;}
+
 a {color: black}
-body {font-size: 1.1em}
+
+body {font-size: 1.1rem}
+
 .toc-sidebar {padding-top: 100px}
+
 .content {padding: 100px 50px}
+
 .toc-btn {margin-bottom: 50px}
+
 footer {margin-top: 80px; border-top: 1px solid black; padding: 10px}
+
 h2 {margin-top: 30px}
+
 .sticky {position: sticky; top: 2em}
+
 .toc-section {
   padding: .1em;
   font-weight: 200;
   color: black;
   text-decoration: underline;
 }
+
 .toc-next {
   text-decoration: underline;
   margin-top: 20px;
   color: black
 }
+
 .btn-next {
   margin-top: 30px
 }
