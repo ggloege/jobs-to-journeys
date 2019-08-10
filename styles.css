@@ -1,84 +1,118 @@
+/* GLOBAL */
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700&display=swap');
-
-
-html {
-  font-size: 16px
+body {
+  font-family: 'Lora', serif;
+  font-size: 80%;
 }
-
-body {font-family: 'Lora', serif;}
-
 a {color: black}
-
-body {font-size: 1.1rem}
-
-.toc-sidebar {padding-top: 100px}
-
-.content {padding: 100px 50px}
-
-.toc-btn {margin-bottom: 50px}
-
-footer {margin-top: 80px; border-top: 1px solid black; padding: 10px}
-
+.main {
+  padding-right: 10%;
+  padding-left: 3%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
 h2 {margin-top: 30px}
 
-.sticky {position: sticky; top: 2em}
+/* MEDIA QUERIES FOR FONT SCALING */
 
-.toc-section {
-  padding: .1em;
-  font-weight: 200;
-  color: black;
-  text-decoration: underline;
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  body {
+    font-size: 90%;
+  }
+}
+@media (min-width: 650px) {
+  body {
+    font-size: 95%;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    font-size: 100%;
+  }
+}
+@media (min-width: 850px) {
+  body {
+    font-size: 105%;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    font-size: 100%;
+  }
+  .content {
+    padding: 2.5em 1em 0 4em;
+  }
+}
+@media (min-width: 1100px) {
+  body {
+    font-size: 107%;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    font-size: 115%;
+  }
 }
 
-.toc-next {
-  text-decoration: underline;
-  margin-top: 20px;
-  color: black
-}
 
-.btn-next {
-  margin-top: 30px
-}
-
+/* MAIN INDEX PAGE */
 .toc-main-section {
   list-style: none;
 }
 
-.footnote {
-  font-size: .8em
-}
 
-.footnote a {
+/* LEFT PANEL */
+.sticky {position: sticky; top: 2em}
+.toc-sidebar {
+  /* top: 2em; */
+  /* padding: 0; */
+}
+.toc-sidebar-top h1 {
+  margin: 20px 0px;
+}
+.toc-sidebar-bottom {
+  display: none;
   text-decoration: underline;
 }
-
-html {
-  font-size: 1rem;
+.toc-sidebar-bottom li {
+  list-style: none;
+  font-size: 90%;
 }
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .toc-sidebar-bottom {
+    display: block;
   }
 }
 
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
 
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
+/* MAIN CONTENT */
+.content button {
+  margin-top: 50px;
 }
-
 .indented-list {
   list-style: none;
   padding-left: 30px
 }
-
 .indented-list li {
   margin: 20px 0px
+}
+.footnote {
+  font-size: .8em
+}
+.footnote a {
+  text-decoration: underline;
+}
+footer {
+  margin-top: 80px;
+  border-top: 1px solid black;
+  padding: 10px 0px;
+  font-size: 90%;
 }
