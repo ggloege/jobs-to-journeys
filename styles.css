@@ -71,8 +71,7 @@ h2 {margin-top: 30px}
 /* LEFT PANEL */
 .sticky {position: sticky; top: 2em}
 .toc-sidebar {
-  /* top: 2em; */
-  /* padding: 0; */
+  /* text-align: left; */
 }
 .toc-sidebar-top h1 {
   margin: 20px 0px;
@@ -84,6 +83,7 @@ h2 {margin-top: 30px}
 .toc-sidebar-bottom li {
   list-style: none;
   font-size: 90%;
+  font-style: italic;
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
