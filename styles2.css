@@ -1,0 +1,44 @@
+/* GLOBAL */
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700&display=swap');
+
+body {font-family: 'Lora', serif;}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+
+
+/* LEFT PANEL */
+.toc-sidebar-bottom {
+  display: none
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .toc-sidebar-bottom {
+    display: block;
+  }
+}
+
+
+/* MAIN CONTENT */
