@@ -1,52 +1,60 @@
 /**
  * @license
- * MyFonts Webfont Build ID 4234253, 2021-12-06T16:00:08-0500
- *
+ * MyFonts Webfont Build ID 4351834, 2022-02-07T21:59:42-0500
+ * 
  * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are
+ * Agreement(s) entered into by the website owner. All other parties are 
  * explicitly restricted from using the Licensed Webfonts(s).
- *
+ * 
  * You may obtain a valid license at the URLs below.
- *
+ * 
+ * Webfont: GroldRounded-Light by Typesketchbook
+ * URL: https://www.myfonts.com/fonts/typesketchbook/grold-rounded/light/
+ * Copyright: Copyright (c) 2019 by Typesketchbook. All rights reserved.
+ * 
  * Webfont: GroldRounded-Regular by Typesketchbook
  * URL: https://www.myfonts.com/fonts/typesketchbook/grold-rounded/regular/
- *
- * Webfont: GroldRounded-Italic by Typesketchbook
- * URL: https://www.myfonts.com/fonts/typesketchbook/grold-rounded/italic/
- *
- * Webfont: GroldRounded-Bold by Typesketchbook
- * URL: https://www.myfonts.com/fonts/typesketchbook/grold-rounded/bold/
- *
- *
- * Webfonts copyright: Copyright (c) 2019 by Typesketchbook. All rights reserved.
- *
- * © 2021 MyFonts Inc
+ * Copyright: Copyright (c) 2019 by Typesketchbook. All rights reserved.
+ * 
+ * Webfont: GroldRounded-ExtraBold by Typesketchbook
+ * URL: https://www.myfonts.com/fonts/typesketchbook/grold-rounded/extrabold/
+ * Copyright: Copyright (c) 2019 by Typesketchbook. All rights reserved.
+ * 
+ * Webfont: TTCommonsPro-Lt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/light/
+ * Copyright: Copyright (c) 2018-2021 by TypeType. All rights reserved.
+ * 
+ * Webfont: TTCommonsPro-LtIt by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/light-italic/
+ * Copyright: Copyright (c) 2018-2021 by TypeType. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2022 MyFonts Inc
 */
 
 
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/409c0d");
-@import url("//hello.myfonts.net/count/409c41");
-
-
+@import url("//hello.myfonts.net/count/42675a");
+  
 @font-face {
   font-family: "GroldRounded-Regular";
   src: url('webFonts/GroldRoundedRegular/font.woff2') format('woff2'), url('webFonts/GroldRoundedRegular/font.woff') format('woff');
 }
 @font-face {
-  font-family: "GroldRounded-Bold";
-  src: url('webFonts/GroldRoundedBold/font.woff2') format('woff2'), url('webFonts/GroldRoundedBold/font.woff') format('woff');
+  font-family: "GroldRounded-Light";
+  src: url('webFonts/GroldRoundedLight/font.woff2') format('woff2'), url('webFonts/GroldRoundedLight/font.woff') format('woff');
 }
 @font-face {
-  font-family: "GroldRounded-Italic";
-  src: url('webFonts/GroldRoundedItalic/font.woff2') format('woff2'), url('webFonts/GroldRoundedItalic/font.woff') format('woff');
+  font-family: "TTCommonsPro-Lt";
+  src: url('webFonts/TTCommonsProLt/font.woff2') format('woff2'), url('webFonts/TTCommonsProLt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GroldRounded-ExtraBold";
+  src: url('webFonts/GroldRoundedExtraBold/font.woff2') format('woff2'), url('webFonts/GroldRoundedExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-LtIt";
+  src: url('webFonts/TTCommonsProLtIt/font.woff2') format('woff2'), url('webFonts/TTCommonsProLtIt/font.woff') format('woff');
 }
 
-@font-face {
-  font-family: "GroldRounded-SemiLight";
-  src: url('webFonts/GroldRoundedSemiLight/font.woff2') format('woff2'), url('webFonts/GroldRoundedSemiLight/font.woff') format('woff');
-}
-@font-face {
-  font-family: "GroldRounded-SemiLightItalic";
-  src: url('webFonts/GroldRoundedSemiLightItalic/font.woff2') format('woff2'), url('webFonts/GroldRoundedSemiLightItalic/font.woff') format('woff');
-}
