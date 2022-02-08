@@ -1,6 +1,6 @@
 /* GLOBAL */
 body {
-  font-family: 'GroldRounded-SemiLight', serif;
+  font-family: 'TTCommonsPro-Lt', serif;
   font-size: 80%;
   color: #0B003F;
   background-color: #E3E8EA;
@@ -13,11 +13,14 @@ a {color: #0B003F}
   padding-bottom: 6%;
 }
 
-h2 {margin-top: 30px}
+h2 {margin-top: 30px;
+    font-family: 'GroldRounded-ExtraBold', sans-serif;
+}
 
 button {
   background-color: #0B003F;
   color: #fff;
+  font-family: 'GroldRounded-Regular', sans-serif;
 }
 
 /* MEDIA QUERIES FOR FONT SCALING */
